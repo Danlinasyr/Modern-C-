@@ -1,0 +1,109 @@
+[{
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution2/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge-Solution1/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Challenge/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-insertion-extraction/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operators/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-start/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-operator-functions/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-move-assignment/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/Mystring.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/Mystring.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/Mystring.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/Mystring.h",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/Mystring.h -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/Mystring.h.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/main.cpp",
+  "directory": "/Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment",
+  "command": "g++ -c /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/main.cpp -o /Users/zhichaolu/Documents/CPP/Beginning_C++_Programming/Section14/Mystring-copy-assignment/main.cpp.o -target x86_64-apple-darwin22.1.0 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }]
