@@ -56,16 +56,20 @@ void display_menu() {
 
 void play_current_song(const Song &song) {
     // This function should display 
-    // Playing: followed by the song that is playing
+    std:: cout << "Playing: " << std::endl;
+    std:: cout << song << std::endl;
    
-    std::cout << "You implement this function"<< std::endl;
+    // std::cout << "You implement this function"<< std::endl;
 }
 
 void display_playlist(const std::list<Song> &playlist, const Song &current_song) {
     // This function should display the current playlist 
     // and then the current song playing.
-    
-    std::cout << "You implement this function" << std::endl;
+    for (const auto &song : playlist) {
+        std::cout << song << std::endl;
+    }
+    std:: cout << "Current song: " << std::endl;
+    std:: cout << current_song << std::endl;
 }
 
 int main() {
@@ -80,9 +84,51 @@ int main() {
     };
     
     std::list<Song>::iterator current_song = playlist.begin();
-    
-    std::cout << "To be implemented" << std::endl;
-    // Your program logic goes here
+    display_playlist(playlist, *current_song);
+    while (1) {
+        puts("");
+        display_menu();
+        std::string command;
+        std::cin >> command;
+        std::cout << command << std::endl;
+        std::transform(command.begin(), command.end(), command.begin(), [](char &c){return std::toupper(c);});
+        if (command[0] == 'N') {
+            std::cout << "Playing next song" << std::endl;
+            std::advance(current_song, 1);
+            if (current_song == playlist.end()) {
+                current_song = playlist.begin();
+            }
+            play_current_song(*current_song);
+        } else if (command[0] == 'P') {
+            std::cout << "Playing previous song" << std::endl;
+            if (current_song == playlist.begin()) {
+                current_song = playlist.end();
+            }
+            std::advance(current_song, -1);
+            play_current_song(*current_song);
+        } else if (command[0] == 'L') {
+            display_playlist(playlist, *current_song);
+        } else if (command[0] == 'F') {
+            current_song = playlist.begin();
+            play_current_song(*current_song);
+        } else if (command[0] == 'A') {
+            std::string name, artist;
+            int rating;
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize > ::max(), '\n');
+            std::cout << "Adding and playing new song" << std::endl;
+            std::cout << "Enter song name:";
+            getline(std::cin, name);
+            std::cout << "Enter song artist:";
+            getline(std::cin, artist);
+            std::cout << "Enter your rating (1-5):";
+            std::cin >> rating; 
+            current_song = playlist.emplace(current_song, name, artist, rating);
+            play_current_song(*current_song);
+        } else {
+            break;
+        }
+    }
 
     std::cout << "Thanks for listening!" << std::endl;
     return 0;
