@@ -17,9 +17,13 @@ bool is_palindrome(const std::string& s)
     std::deque<char> d;
     for (const char& c : s) {
         if (std::isalpha(c)) {
-            d.push_back(c);
+            d.push_back(std::toupper(c));
         }
     }
+    // for (const char &c : d) {
+    //     std::cout << c << " ";
+    // }
+    // std::cout << std::endl;
     while (d.size() > 1) {
         char f = d.front(), b = d.back();
         d.pop_front(); d.pop_back();
@@ -40,5 +44,6 @@ int main()
         std::cout << std::setw(8) << std::left << is_palindrome(s) << s << std::endl;
     }
     std::cout << std::endl;
+    // is_palindrome("A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!");
     return 0;
 }

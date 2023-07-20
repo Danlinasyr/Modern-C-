@@ -12,7 +12,20 @@ bool is_palindrome(const std::string& s)
 {
     // You must implement this function.
     // Since we are learning the STL - use a stack and a queue to solve the problem.
-    return false;
+    std::stack<char> stk;
+    std::queue<char> q;
+    for (const char &c : s) {
+        if (std::isalpha(c)) {
+            char C = std::toupper(c);
+            stk.push(C);
+            q.push(C);
+        }
+    }
+    while (q.size()){
+        if (q.front() != stk.top()) return false;
+        q.pop(); stk.pop();
+    }
+    return true;
 }
 
 int main()
