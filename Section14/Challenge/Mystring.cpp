@@ -65,6 +65,75 @@ Mystring &Mystring::operator=( Mystring &&rhs) {
     return *this;
 }
 
+bool Mystring::operator==(const Mystring &rhs) const {
+    return strcmp(this->str, rhs.str) == 0; 
+}
+
+bool Mystring::operator!=(const Mystring &rhs) const {
+    return !(*this == rhs); 
+}
+
+bool Mystring::operator<(const Mystring &rhs) const {
+    return strcmp(this->str, rhs.str) < 0;
+}
+
+bool Mystring::operator>(const Mystring &rhs) const {
+    return strcmp(this->str, rhs.str) > 0;
+} 
+
+Mystring &Mystring::operator-() {
+    for (int i = 0; i < strlen(this->str); ++i) {
+        this->str[i] = tolower(this->str[i]);
+    }
+    return *this;
+}
+
+Mystring Mystring::operator+(const Mystring &obj) const {
+    char *buff = new char[strlen(this->str) + strlen(obj.str) + 1];
+    strcpy(buff, this->str);
+    strcat(buff, obj.str);
+    Mystring temp {buff};
+    delete[] buff;
+    return temp;
+}
+
+Mystring &Mystring::operator+=(const Mystring &rhs) {
+    this->str = (*this + rhs).str;
+    return *this; 
+}
+
+Mystring Mystring::operator*(const int n) const {
+    Mystring temp;
+    for (int i=1; i<= n; i++)
+        temp += *this;
+    return temp;
+
+    // char *buff = new char[strlen(this->str) * n + 1];
+    // for (int i = 0; i < n; ++i) {
+    //     strcat(buff, this->str);
+    // }
+    // Mystring temp {buff};
+    // delete[] buff;
+    // return temp;
+}
+
+Mystring &Mystring::operator*=(const int n) {
+    *this = *this * n;
+    return *this;
+}
+
+Mystring &Mystring::operator++() {
+    for (int i = 0; this->str[i]; ++i) {
+        this->str[i] = toupper(this->str[i]);
+    }
+    return *this;
+}
+
+Mystring Mystring::operator++(int x) {
+    Mystring temp(*this);
+    operator++();
+    return temp;
+}
 
 // Display method
 void Mystring::display() const {

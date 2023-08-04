@@ -11,23 +11,17 @@
  /*************************************************************************
     Movies no-args constructor
 **************************************************************************/
-Movies::Movies() {
-    movies = new std::vector<Movie>;
-}
+Movies::Movies() {}
 
 /*************************************************************************
     Movies destructor
 **************************************************************************/
-Movies::~Movies() {
-    delete movies;
-}
+Movies::~Movies() {}
 
 /**
  * Movies move constructor 
 */
-Movies::Movies(Movies &&source) : movies{source.movies} {
-    source.movies = nullptr;
-}
+Movies::Movies(Movies &&source) : movies{source.movies} {}
   /*************************************************************************
     add_movie expects the name of the movie, rating and watched count
     
@@ -40,10 +34,10 @@ Movies::Movies(Movies &&source) : movies{source.movies} {
     *********************************************************************/
 bool Movies::add_movie(std::string name, std::string rating, int watched) {
     // you implement this method
-    auto beg = movies->begin();
-    while (beg != movies->end() && beg->get_name() != name) ++beg;
-    if (beg == movies->end()) {
-        movies->push_back(Movie(name, rating, watched));
+    auto it = movies.begin();
+    while (it != movies.end() && it->get_name() != name) ++it;
+    if (it == movies.end()) {
+        movies.push_back(Movie(name, rating, watched));
         return true;
     }
     return false;
@@ -62,9 +56,9 @@ bool Movies::add_movie(std::string name, std::string rating, int watched) {
     *********************************************************************/
 bool Movies::increment_watched(std::string name) {
    // you implement this method
-   for (int i = 0; i < movies->size(); ++i) {
-        if ((*movies)[i].get_name() == name) {
-            (*movies)[i].increment_watched();
+   for (int i = 0; i < movies.size(); ++i) {
+        if (movies[i].get_name() == name) {
+            movies[i].increment_watched();
             return true;
         }
    }
@@ -80,11 +74,11 @@ bool Movies::increment_watched(std::string name) {
     *********************************************************************/
 void Movies::display() const {
    // You implement this method
-   if (movies->size() == 0) {
+   if (movies.size() == 0) {
         std::cout << "Sorry, no movies to display\n" << std::endl;
    } else {
         std::cout << "\n=============================" << std::endl;
-        for (const auto &movie : *movies) {
+        for (const auto &movie : movies) {
             movie.display();
         }
         std::cout << "\n==============================" << std::endl;

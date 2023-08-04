@@ -6,8 +6,7 @@
 using namespace std;
 
 int main() {
-    /*
-    
+
     cout << boolalpha << endl;
     Mystring a {"frank"};
     Mystring b {"frank"};
@@ -60,8 +59,7 @@ int main() {
     result = s++;
     cout << s << endl;                  // FRANK
     cout << result << endl;           // frank
-    
-    */
+
     return 0;
 }
 
